@@ -47,9 +47,9 @@ You can apply this technique to various audio separation tasks, and it's widely 
 
 * Fork , clone then run `python model.py`
 * API will be activate
-```
-[Algorithm Explaination](https://youtu.be/v_Sf2OXQq2w?si=yY1dMmbR1ePFLyNz)
-```
+
+## [Algorithm Explaination](https://youtu.be/v_Sf2OXQq2w?si=yY1dMmbR1ePFLyNz)
+
 
 ## Help
 
