@@ -1,6 +1,9 @@
 # audio-separation-nmf
 ## logic code <br>
-https://www.kaggle.com/code/ankurkumarshukla/202051029-nmf-ankur
+https://www.kaggle.com/code/ankurkumarshukla/202051029-nmf-ankur<br>
+
+## [Algorithm Explaination](https://youtu.be/v_Sf2OXQq2w?si=yY1dMmbR1ePFLyNz) <br>
+https://youtu.be/v_Sf2OXQq2w?si=yY1dMmbR1ePFLyNz
 
 This project aims to seperate audio file with multiple sources. It take an audio file as input and return S audio file (where S is number of sources want to separate) .
 
@@ -48,7 +51,7 @@ You can apply this technique to various audio separation tasks, and it's widely 
 * Fork , clone then run `python model.py`
 * API will be activate
 
-## [Algorithm Explaination](https://youtu.be/v_Sf2OXQq2w?si=yY1dMmbR1ePFLyNz)
+
 
 
 ## Help
