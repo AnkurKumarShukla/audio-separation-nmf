@@ -1,4 +1,4 @@
-## deployed link : https://nmf-api-26e1.onrender.com <br>
+## deployed link : https://nmf-api-26e1.onrender.com <br>  (currently down due to server cors error)
 # audio-separation-nmf
 logic code 
 https://www.kaggle.com/code/ankurkumarshukla/202051029-nmf-ankur
