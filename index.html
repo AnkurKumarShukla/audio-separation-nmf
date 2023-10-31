@@ -7,9 +7,25 @@
 <body>
     <h1>Audio Player with Waveform Visualization</h1>
     <input type="file" id="audioFileInput" accept=".mp3, .wav">
-    <audio id="audioPlayer" controls style="display: none;"></audio>
+    
+    <!-- <button id="showSliderButton">Show Slider</button> -->
+    <div id="sliderContainer">
+        <label for="numComponentsSlider">Number of Sources to be separated into: <span id="numComponentsValue">2</span></label>
+        <input type="range" id="numComponentsSlider" min="1" max="32" step="1" value="2">
+    </div>
+    <div id="audioDisplay" style="display: none;">
+        <audio id="audioPlayer" controls ></audio>
+        <br>
+        <button id="waveformButton">Show Audio Waveform</button>
+        <br>
+        <canvas id="waveform" width="500" height="200"></canvas>
+    </div>
+    <br><br>
     <button id="uploadButton">Upload and Send</button>
-    <canvas id="waveform" width="600" height="100"></canvas>
+    <br><br><br><br>
+    <div id="compsList"></div>
+    
     <script src="script.js"></script>
 </body>
+
 </html>
